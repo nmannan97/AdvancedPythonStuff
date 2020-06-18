@@ -14,5 +14,5 @@ class calc:
 calculator = calc()
 
 addition = calculator.add(1,1)
-
+calculator.Print()
 print(addition)
