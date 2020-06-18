@@ -1,13 +1,10 @@
-import math
+def mult(x,y):
+    return(float(x)*float(y))
 
-def mult(a, b):
-    return(a*b)
+print('This is the Basic Calculator')
+A = input('Type in first Input : ')
+op = input('Math operation : ')
+B = input('Type in second input : ')
 
-x = input("input first var")
-y = input("input second var")
-op = input("put an operation")
-
-if(op == '*'):
-    print(mult(x,y))
-
-    
+if("*" in op):
+    print(mult(A,B)) 
